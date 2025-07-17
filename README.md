@@ -1,2 +1,1 @@
-# odin-landing-page
-Landing page for CSS Odin
+Design and Implement a landing page using flexbox 
