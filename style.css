@@ -85,6 +85,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap:20px;
 
 }
 .maintext{
@@ -96,6 +97,7 @@ body {
 .dialogbox{
     display: flex;
     gap: 50px;
+    margin-bottom: 100px;
 }
 .element{
     display: flex;
@@ -112,10 +114,59 @@ body {
 }
 .context{
     text-align: center;
+    color: black; 
+    font-weight: 400; 
     max-width: 150px;
 }
 
+.quotation{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 250px;
+    
+}
 
+.quote{
+    font-size: 36px;
+    font-style:italic;
+    font-weight: light;
+}
+
+.referencename{
+    color:#1F2937;
+    font-size: 30px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.footer{
+    padding: 100px 200px;
+}
+
+.call{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 15px;
+    padding: 50px 125px;
+    display: flex;
+    justify-content: space-between;
+}
+.callhero{
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.callbutton{
+    padding: 8px 10px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border:2px solid white;
+    border-radius: 8px;
+    width: 140px;
+}
 
 ul {
   list-style-type: none;
